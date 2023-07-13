@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <style>
+        .end-text {
+            color: rgb(241, 50, 50);
+        }
+        input{
+            width: 300px;
+            height: 30px;
+            border: none;
+        }
+        .txt {
+            background-color: rgb(110, 48, 224);
+            height: 30px;
+            margin-bottom: 2em;
+            border-radius: 5px;
+            color: whitesmoke;
+            right:0px;
+            top: 0px; 
+        }
+        .btn {
+            height: 40px;
+            width: 350px;
+            background-color: rgb(21, 182, 133);
+            border: none;
+            border-radius: 1em;
+        }
+
+        .form {
+            background-color: white;
+            width: 400px;
+            padding-top: 2em;
+            padding-left: 1em;
+            padding-right: 1em;  
+        }
+        body {
+            display: inline-flexbox;
+            margin-left: 10em;
+            margin-top: 4em;
+        }
+        .div1 {
+            padding-left: 40px;
+            padding-right: 20px;
+            color: whitesmoke;
+            text-align: left;
+             position: absolute;
+            left: 170px;
+             top: 190px; 
+        }
+        .div2 {
+            display: inline-block;
+            position: absolute; 
+            right: 250px;
+             top: 100px;
+        }
+        .main {
+            display: flex;
+            background-color: lightcoral;
+            width: 80%;
+            height: 500px;
+            text-align: center;
+        }
+        .end {
+            color: rgb(182, 180, 178);
+            font-size: small;
+        }
+        .big{
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="div1">
+            <h1 style="line-height: 0.9;" class="big">Learn to code by</h1>
+            <h1 style="line-height: 0.27px;" class="big"> Watching others</h1>
+            <p> see how experienced developers solve problem in real-time </p>
+            <p>Watching scripted tutorals is great, but understanding how </p>
+            <p>developers think is invaluable</p>
+        </div>
+        <div class="div2">
+            <div class="txt"><p style="padding-top: 6px; padding-bottom: 12px;"><b>Try it free for 7 days</b> then $20/mo.thereafter</p></div>
+            <div class="form">
+                <form action="">
+                    <input type="text" name="Fname" placeholder="First Name" class="fname"> <br>
+                    <br>
+                    <input type="text" name="lname" placeholder="Last Name" class="lname"><br>
+                    <br>
+                    <input type="text" name="Email address" placeholder="Email Address" class="address"><br>
+                    <br>
+                    <input type="password" name="password" placeholder="Password" class="password"><br>
+                    <br>
+                    <button class="btn">CLAIM YOUR FREE TRIAL</button>
+                    <p class="end">by clicking the button you are agreeing to our <span class="end-text"> Terms and
+                            Policy</span></p>
+                </form>
+            </div>
+        </div>   
+    </div>
+</body>
+
+
+</html>
